@@ -1,9 +1,10 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
 .container{
-    background: white;
+    background: rgba(255, 255, 1, 0.61);
     align-self: center;
     justify-content: center;  
+    margin-top: 100px;
 }
 
 h1{
@@ -12,8 +13,23 @@ h1{
     font-family: fantasy;
 }
 
-ul.myIcon{
+li {
     position: relative;
-    justify-content: right;
+    border-bottom: 1px solid lightseagreen;
+}
+
+.myIcon{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color:deeppink;
+    opacity: 0;
+}
+
+.myIcon:hover{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color:deeppink;
     opacity: 1;
 }

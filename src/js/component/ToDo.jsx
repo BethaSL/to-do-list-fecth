@@ -78,7 +78,7 @@ function ToDo() {
 			<div className="row justify-content-center mt-2">
 				<div className="col-12 col-md-6">
 					<h1>
-						<strong> To do list </strong>
+						<strong> To do list: </strong>
 					</h1>
 					<form onSubmit={handleSubmit}>
 						<input
